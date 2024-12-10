@@ -17,4 +17,4 @@ function App() {
 
 export default App;
 
-//До кучи 5-я лаба
+//До кучи 5-я лаба негры
