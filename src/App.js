@@ -2,19 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const greeting = "Это тестовый проект ФИО";
+  const name = "ИИ 2.0";
 
-  
   return (
     <div className="App">
      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-         {greeting}
+        <h1>Добропожаловать в мой проект</h1>
+         <p>{name} 🧠</p>
       </header>
     </div>
   );
 }
 
-export default App;
-
-//До кучи 5-я лаба
+export default App;  //негр
