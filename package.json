@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/github": "^11.0.1",
     "@semantic-release/release-notes-generator": "^14.0.1",
