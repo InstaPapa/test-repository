@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "eslint src/**.js"
+    "lint": "eslint src/**.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,10 +41,16 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
-    "gh-pages": "^6.2.0"
+    "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.1",
+    "eslint": "^8.50.0",
+    "gh-pages": "^6.2.0",
+    "semantic-release": "^24.2.0"
   },
-  "rules": {
-    "no-console": "off"
+  "homepage": "https://terrotfake.github.io/test-repository",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrotfake/test-repository.git"
   }
 }
