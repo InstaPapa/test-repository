@@ -9,6 +9,7 @@ function App() {
     <div className="App">
      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Негры</h1>
          {greeting}
       </header>
     </div>
@@ -17,4 +18,4 @@ function App() {
 
 export default App;
 
-//посиделки ff yt
+//посиделки
