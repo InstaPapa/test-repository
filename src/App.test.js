@@ -1,11 +1,7 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
 
-test('renders greeting message', () => {
-  React.act(() => {
-    render(<App />);
-  });
-  const linkElement = screen.getByText(/Это тестовый проект/i);
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
