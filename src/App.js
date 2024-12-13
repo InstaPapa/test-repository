@@ -17,4 +17,4 @@ function App() {
 
 export default App;
 
-//посиделки ff yt
+//посиделки ff ytмм
